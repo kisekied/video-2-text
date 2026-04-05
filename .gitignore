@@ -1,0 +1,19 @@
+# uv
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# pytest
+.pytest_cache/
+
+# Output files
+*.txt
+*.mp4
+*.avi
+*.mov
+*.mkv

@@ -1,0 +1,17 @@
+[project]
+name = "video-2-text"
+version = "0.1.0"
+description = "Convert video to ASCII text art frames"
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python>=4.13.0.92",
+    "tqdm>=4.67.3",
+]
+
+[project.scripts]
+video2text = "video2text:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
