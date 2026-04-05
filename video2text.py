@@ -9,7 +9,7 @@ BW_CHARS = "@."
 
 
 def pixel_to_char(gray_value: int, chars: str = ASCII_CHARS) -> str:
-    index = gray_value * (len(chars) - 1) // 255
+    index = round(gray_value * (len(chars) - 1) / 255)
     return chars[index]
 
 
